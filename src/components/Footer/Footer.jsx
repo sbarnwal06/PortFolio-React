@@ -79,7 +79,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2026 Ritbik Raj. All rights reserved.
+          © 2026 Shital Barnwal. All rights reserved.
         </p>
       </div>
     </footer>
