@@ -39,7 +39,7 @@ import StJosephlogo from "./assets/education_logo/St_Joseph_logo.jpg";
 // Project Section Logo's
 import krishbazaarimg from "./assets/work_logo/krishbazaar_hero_banner_v2.png";
 import antarnaadimg from "./assets/work_logo/antarnaad_hero_banner.png";
-// import splitbillimg from "./assets/work_logo/split_bill_img.png";
+import careerfitcopilot from "./assets/work_logo/genAicopilot.png";
 
 export const SkillsInfo = [
   {
@@ -191,14 +191,14 @@ export const projects = [
     github: "https://github.com/sbarnwal06/mantra-counter",
     webapp: "https://antarnaad.netlify.app/",
   },
-  // {
-  //   id: 2,
-  //   title: "Bill Split App",
-  //   description:
-  //     "A real-time expense sharing application designed with dynamic input handling for seamless user interaction and accurate split calculations. Enhanced computational logic and UI flow using AI-assisted optimizations, resulting in a smoother, more intuitive, and reliable user experience.",
-  //   image: splitbillimg,
-  //   tags: ["React JS", "Tailwind CSS", "HTML", "CSS", "JavaScript"],
-  //   github: "https://github.com/rajritbik/bill-split",
-  //   webapp: "https://rit-bill-split.netlify.app/",
-  // },
+  {
+    id: 2,
+    title: "CareerFit Copilot App",
+    description:
+      "An AI-powered interview preparation platform that analyzes target job descriptions against candidate profiles to generate tailored technical & behavioral questions, personalized multi-day preparation roadmaps, gap analysis, and tailored resume exports.",
+    image: careerfitcopilot,
+    tags: ["React JS", "Tailwind CSS","HTML", "CSS", "JavaScript", "MongoDB", "Node JS", "Express JS"],
+    github: "https://github.com/sbarnwal06/CareerFit-Copilot",
+    webapp: "https://careerfitcopilot.netlify.app",
+  },
 ];
