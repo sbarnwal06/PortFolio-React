@@ -85,57 +85,119 @@ export const experiences = [
   {
     id: 0,
     img: 'src/assets/company_logo/WiproLogo.png', // Replace with your actual import variable name
-    role: "Senior React Developer",
+    role: "Senior Software Engineer",
     company: "Wipro",
     date: "May 2025 – May 2026",
-    desc: "Architected 6+ scalable React 18 modules using custom Hooks, reducing re-renders by 40% and bundle size by 22% via lazy loading and virtualization. Integrated Claude API and OpenAI GPT-4o for AI-powered streaming dashboards, cutting analyst review time by 35%. Designed Redux Toolkit + RTK Query architectures and TypeScript systems to eliminate 60% of redundant API calls. Built a Vite-powered Micro Frontend architecture for 3 apps, reducing CI build times by 40%, and led Agile code reviews with GitHub Copilot to boost sprint velocity by 20%.",
+    responsibilities: [
+      "Architected 6+ scalable frontend modules using React.js 18 with custom Hooks, reducing re-renders by 40% through useMemo, useCallback, and React.memo.",
+
+      "Implemented React.lazy, Suspense code splitting, and react-window virtualization, boosting Lighthouse scores by 30%+ and reducing initial bundle size by 22%.",
+
+      "Designed a Redux Toolkit + RTK Query store for 3 feature modules, eliminating 60% of redundant API calls through server-state caching.",
+
+      "Built Node.js/Express.js REST microservices backed by MongoDB using Mongoose ODM and aggregation pipelines, reducing API response latency by 25%.",
+
+      "Improved Jenkins CI/CD pipelines using Groovy scripting, reducing deployment cycle time by 35% with zero-downtime releases.",
+
+      "Led Agile/Scrum ceremonies for a team of 6 engineers, contributing to a 20% reduction in post-release defects.",
+    ],
+
     skills: [
       "React.js",
-      "TypeScript",
+      "React 18",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
       "Redux Toolkit",
       "RTK Query",
-      "Vite",
-      "Micro Frontends",
-      "Claude API",
-      "OpenAI API",
-      "GitHub Copilot",
+      "React Hooks",
+      "React.lazy",
+      "Suspense",
+      "react-window",
+      "Jenkins",
+      "Groovy",
       "REST APIs",
-      "Agile",
+      "MERN Stack",
     ],
   },
+
   {
     id: 1,
     img: 'src/assets/company_logo/BajajLogo.jpeg', // Replace with your actual import variable name
-    role: "React Developer",
+    role: "Software Engineer",
     company: "Bajaj Finserv",
     date: "July 2023 – May 2025",
-    desc: "Shipped a Gen AI-powered loan eligibility assistant using OpenAI API and React, reducing support queries by 28%. Delivered 5 critical product features with React, TypeScript, and Redux Toolkit, and built a reusable component library adopted by 3 teams that accelerated feature delivery by 40%. Migrated legacy modules to a Webpack Module Federation Micro Frontend setup, cutting release cycle times by 35%. Integrated React Hook Form, Yup, and React Query to optimize server-state synchronization and UX responsiveness.",
+    responsibilities: [
+      "Delivered 5 critical product features end-to-end across the full SDLC using the MERN Stack, improving team delivery efficiency by 20%.",
+
+      "Built a reusable React.js component library with 15+ TypeScript and CSS Modules components, adopted by 3 product teams and accelerating development by approximately 40%.",
+
+      "Developed Node.js/Express.js microservices with MongoDB for loan processing and account management, securing 1M+ transactions using JWT authentication and RBAC with zero critical incidents.",
+
+      "Implemented Redis caching and centralized error-handling middleware in Node.js/Express.js services, reducing API error rates by 35%.",
+
+      "Partnered with backend teams on SQL-based reporting using MySQL and PostgreSQL alongside MongoDB services.",
+
+      "Used Jira for sprint tracking and Postman for API testing within Agile development cycles.",
+    ],
+
     skills: [
       "React.js",
       "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
       "Redux Toolkit",
-      "React Query",
-      "Webpack Module Federation",
-      "React Hook Form",
-      "Yup",
-      "CSS Modules",
-      "OpenAI API",
+      "Redis",
+      "JWT",
+      "RBAC",
+      "REST APIs",
+      "MySQL",
+      "PostgreSQL",
+      "Postman",
+      "Jira",
+      "MERN Stack",
     ],
   },
+
   {
     id: 2,
     img: 'src/assets/company_logo/KPMGLogo.png', // Replace with your actual import variable name
-    role: "Frontend Developer (React.js)",
+    role: "Programming Analyst",
     company: "KPMG India",
     date: "March 2021 – June 2023",
-    desc: "Built 8+ enterprise audit web modules using React.js and TypeScript while maintaining 100% compliance with data security standards. Resolved 12+ critical performance bottlenecks using bundle splitting, memoization, and debouncing, which improved app responsiveness by 45% across 3 client projects. Established React coding standards and component architecture guidelines, reducing code review cycles by 25%.",
+
+    responsibilities: [
+      "Developed 8+ enterprise web modules for audit clients using React.js and TypeScript while maintaining 100% compliance with data security standards.",
+
+      "Built multi-step React Hook Form workflows with Yup validation, reducing manual data processing time by 30% for compliance audit teams.",
+
+      "Resolved 12+ performance bottlenecks using bundle splitting, memoization, and debouncing, improving application responsiveness by 45% across 3 client projects.",
+
+      "Integrated Node.js/Express.js backend services with MongoDB for audit data storage and retrieval, supporting 500+ concurrent users.",
+
+      "Mentored 4 junior developers on React.js architecture, MongoDB data modeling, and TypeScript best practices, reducing code review cycles by 25%.",
+
+      "Used Git, Jira, and Confluence for version control, sprint tracking, collaboration, and audit-trail documentation.",
+    ],
+
     skills: [
       "React.js",
       "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "React Hook Form",
+      "Yup",
       "JavaScript",
+      "REST APIs",
+      "Git",
+      "Jira",
+      "Confluence",
       "Performance Optimization",
-      "Code Review",
-      "Enterprise Architecture",
+      "MERN Stack",
     ],
   },
 ];
@@ -199,6 +261,6 @@ export const projects = [
     image: careerfitcopilot,
     tags: ["React JS", "Tailwind CSS","HTML", "CSS", "JavaScript", "MongoDB", "Node JS", "Express JS"],
     github: "https://github.com/sbarnwal06/CareerFit-Copilot",
-    webapp: "https://careerfitcopilot.netlify.app",
+    webapp: "https://career-fit-copilot.vercel.app/",
   },
 ];

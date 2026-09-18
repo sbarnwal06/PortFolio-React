@@ -48,7 +48,13 @@ const About = () => {
 
             <TypeAnimation
               sequence={[
+                "Full Stack Engineer",
+                2000,
+                "MERN Stack Engineer",
+                2000,
                 "UI Engineer",
+                2000,
+                "Backend Engineer",
                 2000,
                 "UI Developer",
                 2000,
@@ -63,12 +69,7 @@ const About = () => {
           </h3>
 
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Senior React Developer with 5+ years of experience architecting scalable,
-            high-performance web applications using React.js, TypeScript, Redux Toolkit,
-            and modern frontend technologies. Experienced in building reusable component systems,
-            Micro Frontend architectures, and integrating Generative AI solutions with OpenAI
-            and Claude APIs. Passionate about performance optimization, clean architecture,
-            and delivering intuitive user experiences through scalable and maintainable code.
+          Senior MERN Stack Developer with 5+ years of experience designing and developing scalable, high-performance web applications using MongoDB, Express.js, React.js, and Node.js. Experienced in building reusable UI components, RESTful APIs, microservices, and scalable application architectures. Proficient in TypeScript, JavaScript, Redux Toolkit, and modern frontend and backend technologies. Experienced in integrating Generative AI solutions using OpenAI and Claude APIs. Passionate about clean architecture, performance optimization, secure backend development, and delivering intuitive, maintainable, and scalable web solutions.
           </p>
 
           <a
